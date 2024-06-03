@@ -51,16 +51,17 @@ p {
 }
 
 /* Estilos para tabletas */
-@media (min-width: 991px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .section {
-        float: left;
         width: 48%; /* 100% dividido por 2 menos márgenes */
-        margin: 1%;
+        margin: 10px 1%;
+        float: left;
     }
-    .section {
+    #section3 {
         width: 98%; /* 100% menos márgenes */
-        margin: 1%;
+        margin: 10px 1%;
         float: none;
+        clear: both;
     }
 }
 
@@ -68,7 +69,7 @@ p {
 @media (max-width: 767px) {
     .section {
         width: 98%;
-        margin: 1%;
+        margin: 10px 1%;
         float: none;
     }
 }
