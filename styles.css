@@ -34,16 +34,14 @@ h1 {
 p {
     margin-top: 40px;
 }
-/* LAPTOP / COMPUTER */
 @media (min-width: 992px) {
     .section {
-      float: left;
-      margin: 10px 1%;
-      width: 31.33%;
+        float: left;
+        margin: 10px 1%;
+        width: 31.33%;
     }
 }
-/* TABLETS */
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .section {
         float: left;
         width: 48%;
@@ -55,11 +53,10 @@ p {
         float: left;
     }
 }
-/* PHONE */
 @media (max-width: 767px) {
     .section {
         width: 98%;
         margin: 10px 1%;
-      float: left;
+        float: left;
     }
 }
