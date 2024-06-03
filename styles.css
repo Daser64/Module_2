@@ -55,11 +55,11 @@ p {
     .section {
         float: left;
         width: 48%; /* 100% dividido por 2 menos márgenes */
-        margin: 10px 1%;
+        margin: 1%;
     }
     #section3 {
         width: 98%; /* 100% menos márgenes */
-        margin: 10px 1%;
+        margin: 1%;
         float: none;
     }
 }
@@ -68,7 +68,7 @@ p {
 @media (max-width: 767px) {
     .section {
         width: 98%;
-        margin: 10px 1%;
+        margin: 1%;
         float: none;
     }
 }
