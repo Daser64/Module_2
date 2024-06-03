@@ -1,6 +1,6 @@
 /* Estilos globales */
 * {
-    box-sizing: margin-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -57,7 +57,7 @@ p {
         width: 48%; /* 100% dividido por 2 menos márgenes */
         margin: 1%;
     }
-    #section3 {
+    .section {
         width: 98%; /* 100% menos márgenes */
         margin: 1%;
         float: none;
