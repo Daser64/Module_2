@@ -45,7 +45,7 @@ p {
 /* Estilos para dispositivos de escritorio */
 @media (min-width: 992px) {
     .section {
-        float: center;
+        float: left;
         width: 31.33%; /* 100% dividido por 3 menos márgenes */
     }
 }
@@ -53,15 +53,14 @@ p {
 /* Estilos para tabletas */
 @media (min-width: 768px) and (max-width: 991px) {
     .section {
+        float: left;
         width: 48%; /* 100% dividido por 2 menos márgenes */
         margin: 10px 1%;
-        float: center;
     }
     #section3 {
         width: 98%; /* 100% menos márgenes */
         margin: 10px 1%;
-        float: center;
-        clear: both;
+        /* float: none; */
     }
 }
 
@@ -70,6 +69,6 @@ p {
     .section {
         width: 98%;
         margin: 10px 1%;
-        float: center;
+        float: none;
     }
 }
